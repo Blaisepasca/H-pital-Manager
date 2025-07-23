@@ -18,4 +18,8 @@ def open_register_window():
     gender = Entry(win)
     gender.pack()
 
-    
+    Label(win, text="Maladie").pack()
+    disease = Entry(win)
+    disease.pack()
+
+   
