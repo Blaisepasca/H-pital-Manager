@@ -22,4 +22,8 @@ def open_register_window():
     disease = Entry(win)
     disease.pack()
 
-   
+    Label(win, text="Contact").pack()
+    contact = Entry(win)
+    contact.pack()
+
+
