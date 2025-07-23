@@ -26,4 +26,8 @@ def open_register_window():
     contact = Entry(win)
     contact.pack()
 
+    def save_patient():
+        insert_patient(name.get(), int(age.get()), gender.get(), disease.get(), contact.get())
+        Label(win, text="Patient enregistré ✅").pack()
 
+    Button(win, text="Enregistrer", command=save_patient).pack(pady=10)
